@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="110px" viewBox="0 0 110 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-2.22044605e-14%" y1="6.0546875%" x2="96.71875%" y2="93.9453125%" id="linearGradient-1">
+            <stop stop-color="#6435E3" offset="0%"></stop>
+            <stop stop-color="#DF4AFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-2.22044605e-14%" y1="1.70002901e-14%" x2="96.71875%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#6435E3" offset="0%"></stop>
+            <stop stop-color="#DF4AFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Rectangle" fill="#F6F5F5" x="0" y="0" width="110" height="110" rx="10"></rect>
+            <g id="Group-2" transform="translate(91.000000, 10.000000)" fill="#D85FFF">
+                <circle id="Oval-Copy" cx="4.5" cy="4.5" r="4.5"></circle>
+            </g>
+            <g id="003-website" transform="translate(25.000000, 27.000000)" fill-rule="nonzero">
+                <path d="M60,45.703125 L60,0 L0,0 L0,45.703125 L22.8515625,45.703125 L22.8515625,52.734375 L19.3359375,52.734375 L19.3359375,56.25 L40.6640625,56.25 L40.6640625,52.734375 L37.1484375,52.734375 L37.1484375,45.703125 L60,45.703125 Z M3.515625,42.1875 L3.515625,37.5 L38.90625,37.5 L38.90625,33.984375 L16.6655859,33.984375 L26.0742188,24.5757422 L31.3476562,29.8491797 L45.9375,15.2593359 L45.9375,19.5703125 L49.453125,19.5703125 L49.453125,9.0234375 L38.90625,9.0234375 L38.90625,12.5390625 L43.6859766,12.5390625 L31.3476562,24.8773828 L26.0742188,19.6039453 L11.6937891,33.984375 L3.515625,33.984375 L3.515625,3.515625 L56.484375,3.515625 L56.484375,42.1875 C55.0801172,42.1875 4.92925781,42.1875 3.515625,42.1875 Z M33.6328125,52.734375 L26.3671875,52.734375 L26.3671875,45.703125 L33.6328125,45.703125 L33.6328125,52.734375 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+                <polygon id="Path" fill="url(#linearGradient-2)" points="42.421875 33.984375 45.9375 33.984375 45.9375 37.5 42.421875 37.5"></polygon>
+                <polygon id="Path" fill="url(#linearGradient-2)" points="49.453125 33.984375 52.96875 33.984375 52.96875 37.5 49.453125 37.5"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="110px" viewBox="0 0 110 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-35.144043%" y1="44.7016461%" x2="100%" y2="62.4434156%" id="linearGradient-1">
+            <stop stop-color="#6435E3" offset="0%"></stop>
+            <stop stop-color="#DF4AFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-35.144043%" y1="39.300554%" x2="100%" y2="75.1281163%" id="linearGradient-2">
+            <stop stop-color="#6435E3" offset="0%"></stop>
+            <stop stop-color="#DF4AFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-35.144043%" y1="-172.101794%" x2="100%" y2="571.615766%" id="linearGradient-3">
+            <stop stop-color="#6435E3" offset="0%"></stop>
+            <stop stop-color="#DF4AFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-35.144043%" y1="-191.40625%" x2="100%" y2="616.953125%" id="linearGradient-4">
+            <stop stop-color="#6435E3" offset="0%"></stop>
+            <stop stop-color="#DF4AFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Rectangle" fill="#F6F5F5" x="0" y="0" width="110" height="110" rx="10"></rect>
+            <g id="chat" transform="translate(25.000000, 25.000000)" fill-rule="nonzero">
+                <path d="M36.0714286,11 L12.9285714,11 C11.864,11 11,11.896 11,13 C11,14.104 11.864,15 12.9285714,15 L36.0714286,15 C37.136,15 38,14.104 38,13 C38,11.896 37.136,11 36.0714286,11 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                <path d="M28.1,19 L12.9,19 C11.8512,19 11,19.896 11,21 C11,22.104 11.8512,23 12.9,23 L28.1,23 C29.1488,23 30,22.104 30,21 C30,19.896 29.1488,19 28.1,19 Z" id="Path" fill="url(#linearGradient-2)"></path>
+                <path d="M41.4615385,0 L7.53846154,0 C3.381,0 0,3.37272 0,7.52 L0,45.12 C0,45.84944 0.422153846,46.51496 1.08553846,46.82328 C1.33807692,46.93984 1.61323077,47 1.88461538,47 C2.31807692,47 2.74776923,46.8496 3.09076923,46.56384 L13.8745385,37.6 L41.4615385,37.6 C45.619,37.6 49,34.22728 49,30.08 L49,7.52 C49,3.37272 45.619,0 41.4615385,0 Z M45.2307692,30.08 C45.2307692,32.15176 43.5421538,33.84 41.4615385,33.84 L13.1923077,33.84 C12.7513077,33.84 12.3253846,33.99416 11.9861538,34.27616 L3.76923077,41.10808 L3.76923077,7.52 C3.76923077,5.44824 5.45784615,3.76 7.53846154,3.76 L41.4615385,3.76 C43.5421538,3.76 45.2307692,5.44824 45.2307692,7.52 L45.2307692,30.08 Z" id="Shape" fill="url(#linearGradient-3)"></path>
+                <path d="M52.5,15 C51.465,15 50.625,15.84 50.625,16.875 C50.625,17.91 51.465,18.75 52.5,18.75 C54.57,18.75 56.25,20.43375 56.25,22.5 L56.25,54.22125 L49.92,49.15875 C49.59,48.89625 49.17375,48.75 48.75,48.75 L22.5,48.75 C20.43,48.75 18.75,47.06625 18.75,45 L18.75,43.125 C18.75,42.09 17.91,41.25 16.875,41.25 C15.84,41.25 15,42.09 15,43.125 L15,45 C15,49.13625 18.36375,52.5 22.5,52.5 L48.09,52.5 L56.95125,59.59125 C57.2925,59.86125 57.70875,60 58.125,60 C58.39875,60 58.67625,59.94 58.93875,59.81625 C59.5875,59.50125 60,58.845 60,58.125 L60,22.5 C60,18.36375 56.63625,15 52.5,15 Z" id="Path" fill="url(#linearGradient-4)"></path>
+            </g>
+            <g id="Group-2" transform="translate(91.000000, 10.000000)" fill="#D85FFF">
+                <circle id="Oval-Copy" cx="4.5" cy="4.5" r="4.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
