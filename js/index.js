@@ -6,7 +6,7 @@ setInterval( () => {
     if (timeLeft > 0){
         countdown.innerText = timeLeft;
     } else {
-        document.querySelector('bode').hidden = true;
+        document.querySelector('body').hidden = true;
     }
     } , 1000
 )
