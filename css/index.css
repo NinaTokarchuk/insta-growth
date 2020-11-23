@@ -5,17 +5,16 @@ h1, h2, h3, p {
 
 :root {
     scroll-behavior: smooth;
-    max-width: 980px;
+    max-width: 1080px;
     margin: auto;
 }
 
 body {
-    max-width: 980px;
     margin: auto;
 }
 
 header nav .logo img {
-    width: 200px;
+    width: 400px;
     padding: 30px 200px 30px 5px;
 }
 
@@ -218,8 +217,10 @@ header nav .menu-items a {
     width: 100%;
 }
 
+.how-it-works-list {
+    margin-top: 20px;
+}
 #how-it-works .how-it-works-image {
-    width: 50%;
     display: flex;
     align-items: center;
 }
@@ -244,13 +245,25 @@ header nav .menu-items a {
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
     display: inline;
-    margin: 5px;
 }
 
+.how-it-works-list li {
+    margin-top: 7.5px;
+    margin-bottom: 20px;
+}
 .list-plus-image {
     margin-bottom: 100px;
 }
 
+#our-services {
+    background-color: rgb(247, 247, 247);
+    background-size: cover;
+    min-height: 900px;
+}
+
+#our-services .unit {
+    padding-top: 150px;
+}
 #our-services h3 {
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
@@ -259,8 +272,62 @@ header nav .menu-items a {
     margin-bottom: 0;
 }
 
-#our-services-carousel img {
-    width: 70px;
-    height: 70px;
-    padding-bottom: 20px;
+#our-services .carousel {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#our-services .carousel .arrow-slider {
+    height: 40px;
+    margin-top: 210px;
+    border: none;
+    background-color: transparent;
+    color: #7648f8!important;
+}
+
+#our-services .carousel ul{
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#our-services .carousel .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    margin: 50px 20px 100px 20px;
+}
+
+
+#our-services .carousel .card img {
+    width: 110px;
+    height: 110px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+#our-services .carousel .card h5 {
+color: #7648f8!important;
+font-family: 'Nunito Sans', sans-serif;
+text-align: center;
+padding-bottom: 25px;
+font-weight: bold;
+font-size: 25px;
+}
+
+#our-services .carousel .card p {
+margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #5f6162;
+    line-height: 1.6;
 }

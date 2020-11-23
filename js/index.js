@@ -1,4 +1,4 @@
-const countdown = document.querySelector('.countdown');
+/*const countdown = document.querySelector('.countdown');
 const targetTime = new Date();
 targetTime.setSeconds(targetTime.getSeconds() + 10);
 setInterval( () => {
@@ -11,3 +11,4 @@ setInterval( () => {
     } , 1000
 )
 
+*/
