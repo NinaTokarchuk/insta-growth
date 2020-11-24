@@ -1,4 +1,4 @@
-function slide(cards) {
+/*function slide(cards) {
     document.querySelector('.carousel .first-card img').src = cards[0].img;
     document.querySelector('.carousel .first-card h5').innerText = cards[0].heading;
     document.querySelector('.carousel .first-card p').innerText = cards[0].paragraph;
@@ -28,6 +28,37 @@ function backward() {
     }
     cards[0] = tempCard;
     slide(cards);
+}*/
+
+let currentFirst = 0;
+let currentSecond = 1;
+let currentThird = 2;
+
+function slide(currentFirst, currentSecond, currentThird) {
+    document.querySelector('.carousel .first-card img').src = cards[currentFirst].img;
+    document.querySelector('.carousel .first-card h5').innerText = cards[currentFirst].heading;
+    document.querySelector('.carousel .first-card p').innerText = cards[currentFirst].paragraph;
+
+    document.querySelector('.carousel .second-card img').src = cards[currentSecond].img;
+    document.querySelector('.carousel .second-card h5').innerText = cards[currentSecond].heading;
+    document.querySelector('.carousel .second-card p').innerText = cards[currentSecond].paragraph;
+
+    document.querySelector('.carousel .third-card img').src = cards[currentThird].img;
+    document.querySelector('.carousel .third-card h5').innerText = cards[currentThird].heading;
+    document.querySelector('.carousel .third-card p').innerText = cards[currentThird].paragraph;
+}
+
+function forward() {
+    currentFirst = ++currentFirst > countCards - 1 ? 0 : currentFirst;
+    currentSecond = currentFirst + 1 > countCards - 1 ? 0 : currentFirst + 1;
+    currentThird = currentSecond + 1 > countCards - 1 ? 0 : currentSecond + 1;
+    slide(currentFirst, currentSecond, currentThird);
+}
+function backward() {
+    currentFirst = --currentFirst < 0 ? countCards - 1 : currentFirst;
+    currentSecond = currentFirst - 1 < 0 ? countCards - 1 : currentFirst - 1;
+    currentThird = currentSecond - 1 < 0 ? countCards - 1 : currentSecond - 1;
+    slide(currentFirst, currentSecond, currentThird);
 }
 
 
@@ -74,6 +105,6 @@ for(let i = 0; i < countCards; i++){
 
 
 
-slide(cards);
+slide(0,1,2);
 document.querySelector('.carousel .arrow-right').addEventListener('click', forward);
 document.querySelector('.carousel .arrow-left').addEventListener('click', backward);
