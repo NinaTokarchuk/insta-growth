@@ -55,9 +55,9 @@ function forward() {
     slide(currentFirst, currentSecond, currentThird);
 }
 function backward() {
-    currentFirst = --currentFirst < 0 ? countCards - 1 : currentFirst;
-    currentSecond = currentFirst - 1 < 0 ? countCards - 1 : currentFirst - 1;
-    currentThird = currentSecond - 1 < 0 ? countCards - 1 : currentSecond - 1;
+    currentThird = --currentThird < 0 ? countCards - 1 : currentThird;
+    currentSecond = currentThird - 1 < 0 ? countCards - 1 : currentThird - 1;
+    currentFirst = currentSecond - 1 < 0 ? countCards - 1 : currentSecond - 1;
     slide(currentFirst, currentSecond, currentThird);
 }
 
