@@ -50,6 +50,12 @@ header nav .menu-items a {
         justify-content: flex-end;
         align-items: center;
     }
+    .processing-block {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 500px;
+    }
 }
 
 .social-media-bar {
@@ -124,6 +130,7 @@ header nav .menu-items a {
 .banner .banner-button1:hover {
     background-color: #f7b30b;
     cursor: pointer;
+    color: white;
 }
 
 .banner .banner-button2:hover {
@@ -131,12 +138,7 @@ header nav .menu-items a {
     cursor: pointer;
 }
 
-.processing-block {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 500px;
-}
+
 
 .processing-block .process-card {
     display: flex;
@@ -277,7 +279,6 @@ header nav .menu-items a {
     justify-content: space-around;
 
 }
-
 #our-services .carousel .arrow-slider {
     height: 40px;
     margin-top: 210px;
@@ -330,4 +331,64 @@ margin: 0;
     font-weight: 500;
     color: #5f6162;
     line-height: 1.6;
+}
+
+.lets-start {
+    background-image: url(../img/lets-start-background.png);
+    background-size: cover;
+    min-height: 600px;
+}
+
+.lets-start h4 {
+    color: white;
+    padding-top: 100px;
+}
+
+.lets-start .devider-dash {
+    color: #f7b30b!important;
+}
+
+.lets-start h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 54px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.lets-start p{
+    color: white;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    padding-top: 30px;
+}
+
+.lets-start form {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.lets-start .get-started-button {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+    color: #4D5162;
+    background-color: white;
+    font-weight: 800;
+    height: 50px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
+.lets-start .get-started-button:hover {
+    background-color: #f7b30b;
+    cursor: pointer;
+    color: white;
 }
