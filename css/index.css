@@ -501,7 +501,6 @@ margin: 0;
 .why-us .devider-dash {
     color: #f7b30b!important;
     font-size: 25px;
-
 }
 
 .why-us-text h3 {
@@ -718,4 +717,31 @@ input[type="submit"].submit-email:hover {
     .subscribe .unit {
         padding-top: 10%;
     }
+}
+
+#pricing {
+    background-color: rgb(247, 247, 247);
+    background-size: cover;
+    min-height: 900px;
+    padding-top: 7%;
+}
+
+#pricing .pricing-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pricing h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#pricing .package-price {
+    display: flex;
+}
+
+#pricing .package-price p {
+    margin-bottom: 0px;
 }
