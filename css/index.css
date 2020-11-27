@@ -20,7 +20,8 @@ header nav .menu-items {
 }
 
 header nav .logo img {
-    width: 400px;
+    width: 100%;
+    display: block;
     padding: 30px 200px 30px 5px;
 }
 
@@ -59,7 +60,13 @@ header nav .social-media-bar {
     display: flex;
     align-items: center;
 }
+
 @media (min-width: 769px) {
+    header nav .logo img {
+        width: 400px;
+        padding: 30px 200px 30px 5px;
+    }
+
     .burger-icon {
         display: none;
     }
@@ -319,11 +326,9 @@ header nav .social-media-bar {
     font-weight: 900;
     margin-bottom: 0;
 }
-
 #our-services .carousel {
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-around;    
 }
 #our-services .carousel .arrow-slider {
     height: 40px;
@@ -377,6 +382,22 @@ margin: 0;
     font-weight: 500;
     color: #5f6162;
     line-height: 1.6;
+}
+
+
+@media screen and (min-width:700px) and (max-width:1100px) {
+    #our-services .carousel .third-card {
+        display: none;
+    }
+}
+
+@media (max-width:700px) {
+    #our-services .carousel .third-card {
+        display: none;
+    }
+    #our-services .carousel .second-card {
+        display: none;
+    }
 }
 
 .lets-start {
@@ -522,3 +543,32 @@ margin: 0;
     margin-top: 20px;
     margin-bottom: 30px;
  }
+
+ @media (max-width: 500px){
+    header nav .logo img {
+        width: 100%;
+        display: block;
+        padding: 10px 100px 10px 10px;
+    }
+    .banner h1 {
+        padding-left: 20px;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .banner .banner-buttons {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .list-plus-image {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #our-services .unit {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+}
+

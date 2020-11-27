@@ -63,6 +63,5 @@ const cards = [
 }
 ];
 
-slide(0,1,2);
 document.querySelector('.carousel .arrow-right').addEventListener('click', forward);
 document.querySelector('.carousel .arrow-left').addEventListener('click', backward);
