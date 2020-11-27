@@ -470,6 +470,7 @@ margin: 0;
 .why-us {   
     background-color: rgb(37, 30, 46);
     min-height: 1000px;
+    padding-bottom: 10%;
 }
 
 
@@ -671,6 +672,7 @@ margin: 0;
 }
 
 .subscribe .subscribe-buttons .input-email {
+    color: white;
     border: none;
     border-radius:5px;
     border-width: 2px;
@@ -679,6 +681,11 @@ margin: 0;
     background-color:rgba(255, 255, 255, 0.11);
     padding: 10px 0px 10px 30px;
 }
+
+input.input-email::placeholder {
+    color:#FAFAFA99;
+}
+
 .subscribe .subscribe-buttons .submit-email {
     background-image: linear-gradient(110deg,#7648f8,#d85fff);
     padding: 10px 0px 10px 30px;
@@ -689,6 +696,10 @@ margin: 0;
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
     font-size: 15px;
+}
+
+input[type="submit"].submit-email:hover {
+    background-image: linear-gradient(110deg,#d85fff,#7648f8);
 }
 
 @media(max-width:800px) {
