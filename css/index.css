@@ -519,6 +519,7 @@ margin: 0;
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
+    padding-bottom: 50px;
 }
 
 .benefits-block .beneficial-card {
@@ -568,6 +569,8 @@ margin: 0;
         text-align: center;
         padding-left: 0px;
     }
+ }
+ @media (max-width: 1050px) {
     .benefits-block {
         display: flex;
         flex-direction: column;
