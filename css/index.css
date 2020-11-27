@@ -30,10 +30,31 @@ header nav .menu-items a {
 .menu-items a:hover { 
     color: #7648f8;
 }
+
+#burger-checkbox {
+    display: none;
+}
+
+header nav .total-menu {
+    display: none;
+}
+
+header nav input:checked ~ .total-menu {
+    display: block;
+}
+
 @media (min-width: 769px) {
+    .burger-icon {
+        display: none;
+    }
+
     header nav {
         display: flex;
         justify-content: space-around;
+    }
+
+    header nav input:checked ~ .total-menu {
+        display: flex;
     }
 
     header nav .total-menu {
@@ -41,15 +62,18 @@ header nav .menu-items a {
         justify-content: flex-end;
         align-items: center;
     }
+
     header nav .menu-items {
         display: flex;
         
     }
+
     header nav .social-media-bar {
         display: flex;
         justify-content: flex-end;
         align-items: center;
     }
+    
     .processing-block {
         display: flex;
         justify-content: space-around;
@@ -400,6 +424,8 @@ margin: 0;
 
 
 .why-us-img img { 
+    display: block;
+    width: 100%;
     margin-top: 100px;
     margin-left: 50px;
 }
