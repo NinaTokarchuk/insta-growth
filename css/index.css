@@ -736,6 +736,7 @@ input[type="submit"].submit-email:hover {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 60px;
 }
 
 #pricing .package-price {
@@ -745,3 +746,82 @@ input[type="submit"].submit-email:hover {
 #pricing .package-price p {
     margin-bottom: 0px;
 }
+
+#pricing .pricing-plan-block {
+    display: flex;
+    justify-content: space-around;
+}
+
+#pricing .pricing-plan-card {
+    background-color: white;
+}
+
+.pricing-plan-card h5{
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    font-weight: 1000;
+    color: #5F6162;
+}
+
+.pricing-plan-card span {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 48px;
+    color: #7648f8;
+    font-weight: 900;
+}
+
+.pricing-plan-card p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    color: #5F6162;
+    font-weight: 900;
+}
+.pricing-plan-card ul {
+    list-style: none;
+}
+
+.pricing-plan-card ul li::before {
+    content: "\2022"; 
+    color: #D85FFF;
+    font-weight: 1000; 
+    font-size: 25px;
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
+}
+
+.pricing-plan-card ul li {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 1000;
+    color: #5F6162;
+}
+
+.pricing-plan-card .pricing-btn {
+    display: flex;
+    align-items: center;
+    border-color: #7648f8;
+    color: #5F6162;
+    font-weight: bolder;
+    font-size: 12px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: transparent;
+    margin: 15px;
+    padding: 15px 30px 15px 30px;
+    height: 50px;
+}
+
+@media (max-width:1010px) {
+    #pricing .pricing-plan-block {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .pricing-plan-block .pricing-plan-card {
+        margin-bottom: 30px;
+    }
+}
+]
