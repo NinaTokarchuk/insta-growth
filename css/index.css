@@ -337,7 +337,7 @@ header nav .social-media-bar {
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
 }
-#our-services .carousel .arrow-slider {
+.arrow-slider {
     height: 40px;
     margin-top: 210px;
     border: none;
@@ -824,3 +824,72 @@ input[type="submit"].submit-email:hover {
         margin-bottom: 30px;
     }
 }
+
+.reviews .unit {
+        color: #5F6162;
+        font-family: 'Rubik', sans-serif;
+        font-size: 12px;
+        padding-top: 100px;
+        justify-content: center;
+}
+
+.reviews h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.reviews .testimonials-carousel {
+    display: flex;
+    justify-content: space-around;  
+}
+
+.reviews ul {
+    display: flex;
+    justify-content: space-around; 
+    padding: 0px;
+}
+
+.reviews li h5 {
+    color: #1D1F2A;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.reviews li span {
+    color: #5F6162;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+}
+
+.reviews li p {
+    color: #5F6162;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
+.reviews li {
+    text-align: center;
+    border: none;
+}
+
+.reviews li .social-media-bar {
+    display: flex;
+    justify-content: center;
+}
+
+.reviews li img {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
+
+.reviews .second-card {
+    display: none;
+}
+
+
