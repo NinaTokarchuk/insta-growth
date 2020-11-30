@@ -1,23 +1,23 @@
 let current = 0;
-const countCards = 2;
+let countOfCards = 2;
 
-function slide(current) {
-    document.querySelector('.testimonials-carousel .first-card img').src = cards[current].img;
-    document.querySelector('.testimonials-carousel .first-card h5').innerText = cards[current].heading;
-    document.querySelector('.testimonials-carousel .first-card span').innerText = cards[current].span;
-    document.querySelector('.testimonials-carousel .first-card p').innerText = cards[current].paragraph;
+function slide_(current) {
+    document.querySelector('.testimonials-carousel .first-card img').src = cards_[current].img;
+    document.querySelector('.testimonials-carousel .first-card h5').innerText = cards_[current].heading;
+    document.querySelector('.testimonials-carousel .first-card span').innerText = cards_[current].span;
+    document.querySelector('.testimonials-carousel .first-card p').innerText = cards_[current].paragraph;
 }
 
-function forward() {
-    current = ++current > countCards - 1 ? 0 : current;
-    slide(current);
+function forward_() {
+    current = ++current > countOfCards - 1 ? 0 : current;
+    slide_(current);
 }
-function backward() {
-    current = --current < 0 ? countCards - 1 : current;
-    slide(current);
+function backward_() {
+    current = --current < 0 ? countOfCards - 1 : current;
+    slide_(current);
 }
 
-const cards = [
+const cards_ = [
     {
         img: 'img/alice-morris.png',
         heading: 'Alice Morris',
@@ -32,5 +32,5 @@ const cards = [
     },
 ]
 
-document.querySelector('.testimonials-carousel .arrow-right').addEventListener('click', forward);
-document.querySelector('.testimonials-carousel .arrow-left').addEventListener('click', backward);
+document.querySelector('.testimonials-carousel .arrow-right').addEventListener('click', forward_);
+document.querySelector('.testimonials-carousel .arrow-left').addEventListener('click', backward_);

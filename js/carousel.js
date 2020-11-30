@@ -1,4 +1,4 @@
-const countOfCards = 6;
+const countCards = 6;
 let currentFirst = 0;
 let currentSecond = 1;
 let currentThird = 2;
@@ -18,15 +18,15 @@ function slide(currentFirst, currentSecond, currentThird) {
 }
 
 function forward() {
-    currentFirst = ++currentFirst > countOfCards - 1 ? 0 : currentFirst;
-    currentSecond = currentFirst + 1 > countOfCards - 1 ? 0 : currentFirst + 1;
-    currentThird = currentSecond + 1 > countOfCards - 1 ? 0 : currentSecond + 1;
+    currentFirst = ++currentFirst > countCards - 1 ? 0 : currentFirst;
+    currentSecond = currentFirst + 1 > countCards - 1 ? 0 : currentFirst + 1;
+    currentThird = currentSecond + 1 > countCards - 1 ? 0 : currentSecond + 1;
     slide(currentFirst, currentSecond, currentThird);
 }
 function backward() {
-    currentThird = --currentThird < 0 ? countOfCards - 1 : currentThird;
-    currentSecond = currentThird - 1 < 0 ? countOfCards - 1 : currentThird - 1;
-    currentFirst = currentSecond - 1 < 0 ? countOfCards - 1 : currentSecond - 1;
+    currentThird = --currentThird < 0 ? countCards - 1 : currentThird;
+    currentSecond = currentThird - 1 < 0 ? countCards - 1 : currentThird - 1;
+    currentFirst = currentSecond - 1 < 0 ? countCards - 1 : currentSecond - 1;
     slide(currentFirst, currentSecond, currentThird);
 }
 
